@@ -39,8 +39,8 @@ for link in final_sub_links:
 
 print(final_sub_links2)
 
-os.mkdir('/Users/alexandrospapakribopoulos/Downloads/Subs/{}'.format(name))
-os.chdir('/Users/alexandrospapakribopoulos/Downloads/Subs/{}'.format(name))
+os.mkdir('YOUR PLACE THAT YOU WANNA SAVE YOU FOLDER WITH THE SUBS{}'.format(name))
+os.chdir('YOUR PLACE THAT YOU WANNA SAVE YOU FOLDER WITH THE SUBS{}'.format(name))
 for i in final_sub_links2:
     file = requests.get(i)
     zipDocument = zipfile.ZipFile(BytesIO(file.content))
