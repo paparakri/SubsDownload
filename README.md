@@ -1,6 +1,7 @@
 # SubsDownload
 
-### Depreciated/Not Workign
+### Depreciated/Not Working
+### Website that downloaded subs no longer running
 
 Open the file and change the directory of the downlaods
 Then just follow the directions that there are when you run the file
